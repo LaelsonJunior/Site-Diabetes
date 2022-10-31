@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+    <title>Diabetes</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+
+            <div id="logo">
+                <img  src="/img/logo.png" alt="logo da diabetes, anel azul">
+            </div>
+
+            <span id="menuHam" class="material-icons md-48" onclick="controlaMenu()">menu</span>
+
+            <nav id="menu">
+                
+                <ul>
+                    <li> <a href="#diabetes">O que é Diabetes </a></li>
+                    <li><a href="#sintomasSinais">Sintomas </a></li>
+                    <li><a href="#orientacao">Orientações </a></li>
+                    <li><a href="#manual">Manual</a></li>
+                    <li><span id="x" class="material-icons md-48" onclick="controlaMenu()">cancel</span></li>
+                </ul>
+            </nav>
+        </div>
+            <img id="banner" src="img/Logodes.jpg" alt="">
+
+            <main>
+            <div class="no-main">
+                <section class="grid">
+                    
+                    
+                
+                    <h1 id="titulo">Dia Mundial da prevenção da diabetes  14 de Novembro</h1>
+                    
+                    <article id="artigo1">
+                        <div id="imagem1">
+                            <img id="primeira" class="imagens" src="img/meidor.jpg" alt="medidor de nivel de diabetes informando">
+                        </div>
+                        <div id="texto1">
+                            <h2 id="diabetes">O que é Diabetes ?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatum pariatur repudiandae sunt totam vitae explicabo quidem non accusamus aut ipsam modi, quas id rem beatae magnam sit harum obcaecati.</p>
+                        </div>
+                    </article>
+
+                    <article id="artigo2">
+
+                        <div id="imagem2" class="sintomas">
+                            <img id="segundaImagem" class="imagens" src="/img/meipeito.jpg" alt="homem com dor no peito">
+                        </div>
+                            <div id="texto2">
+                                <h2 class="sinais">Sintomas e Sinais</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus maxime praesentium ullam cumque, illo officia rerum dignissimos veniam a optio recusandae, placeat iusto repudiandae consectetur impedit ut possimus expedita reiciendis.</p>
+                            </div>
+                        
+                    </article>
+        
+                    <article id="artigo3">
+                        <div id="titulo2">
+                            <h2 id="orientacao">Orientações</h2>
+                        </div>
+
+                        <div id="imagem3">
+                            <img class="imagens" src="/img/medico.jpg" alt="medico consultando um paciente">
+                        </div>
+                            <div id="texto3">
+                                <h3>• Orientações Nutricionais para prevenção</h3>
+        
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus maxime praesentium ullam cumque, illo officia rerum dignissimos veniam a optio recusandae, placeat iusto repudiandae consectetur impedit ut possimus expedita reiciendis.</p>
+        
+                                <h3>• Cuidados</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatum! Magni, omnis hic obcaecati ratione perferendis minus laudantium non facere nihil? Adipisci libero exercitationem fugit aut cupiditate quod similique ea?</p>
+        
+                                <h3>• Orientação ao Pé-diabético</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quas, nulla dolores deleniti autem tenetur laboriosam sed voluptates explicabo quo, labore possimus, hic magnam dolor vel rem. Architecto, distinctio ratione.</p>
+                            </div>
+                        
+                    </article>
+        
+                    <article id="artigo4">
+        
+                        <div id="imagem4">
+                            <img class="imagens" src="/img/agulha.jpg" alt="homem auto-aplicando insulina">
+                        </div>
+                        <div id="texto4">
+                            <h2 id="manual" class="sinais">Manual para alto aplicação de insulina</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus maxime praesentium ullam cumque, illo officia rerum dignissimos veniam a optio recusandae, placeat iusto repudiandae consectetur impedit ut possimus expedita reiciendis.</p>
+                        </div>
+                    </article>
+                </section>
+                </div>
+            </main>
+
+            
+
+            <footer>
+                <div class="pe">
+                <h4> Desenvolvido por <a href="https://github.com/LaelsonJunior" target="_blank">Laelson</a> e <a href="https://github.com/CharlesVenturaSilva" target="_blank">Charles</a> - TI44</h4>
+                <img class="sena" src="/img/Senac.png" alt="logo do Senac">
+                </div>
+
+            </footer>
+
+            </header>
+
+        <script>
+            function controlaMenu()
+            {
+                if (menu.style.display == 'none'){
+                    menu.style.display = 'block'
+                    menuHam.style.display = 'none'
+                }
+                else{
+                    menu.style.display = 'none'
+                    menuHam.style.display = 'block'
+                }
+            }
+        </script>
+
+</body>
+</html>

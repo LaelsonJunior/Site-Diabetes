@@ -1,0 +1,301 @@
+*
+{
+    margin:     0;
+    padding:    0;
+}
+
+:root
+{
+    --branco: #fff;
+    --azul:   #004A8D;
+
+}
+
+span
+{
+
+    margin-right: 8px;
+    color: #fff;
+}
+md-48
+{
+    font-size: 48px;
+}
+#logo img
+{
+    width: 48px;
+    margin: 4px;
+
+}
+.cabecalho
+{
+    background-color: #004A8D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-main
+{
+    align-content: center;
+    padding: 24px 24px 24px 24px;
+}
+
+#banner
+{
+    display: none;
+}
+
+.imagens
+{
+
+    max-width: 89%;
+    border-radius: 5%;
+    margin: 0px 24px 0px 24px;
+}
+
+h1
+{
+    font-size: 38px;
+    text-align: center;
+    color: #004A8D;
+    margin: 14px 0px 14px 0px;
+}
+
+#primeira
+{
+    margin-bottom: 14px;
+}
+
+a
+{
+    
+    color: #fff;
+}
+
+li
+{
+   list-style: none;
+   margin: 14px;
+}
+
+nav
+{
+    display: none;
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    background-color: #004A8D;
+    text-align: right;
+    padding: 34% 0px 0 0;
+    border-radius: 5%;
+    
+}
+
+.artigo
+{
+    align-content: center;
+    padding: 24px 24px 24px 24px;
+}
+
+h2
+{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+h3
+{
+    text-align: center;
+    margin: 14px;
+}
+.sinais
+{
+    margin-top: 24px;
+}
+p
+{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0px 14px 14px 14px;
+}
+
+h4
+{
+    color: #fff;
+    font-size: 8px;
+}
+.pe
+{
+    background-color: #004A8D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 14px 0px 14px;
+
+}
+.sena
+{
+    max-width: 48px;
+
+}
+
+@media screen  and (min-width: 1024px) 
+{
+    
+
+    #menuHam{
+        display: none;
+    }
+
+    #logo
+    {
+        overflow: hidden;
+        width: 40%;
+        
+    }
+    #logo img{
+        width: 30%;
+    }
+
+
+    .cabecalho 
+    {
+        max-height: 35px;
+    }
+
+    nav{
+        display: block;
+        position: relative;
+        z-index: 0;
+        width: auto;
+        padding: 0;
+        text-align: right;
+        background-color:#004A8D;
+    }
+
+    li{
+        display: inline;
+        margin-left: 24px;
+    }
+
+    #x{
+        display: none;
+    }
+
+#banner
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+   
+}
+#artigo1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+    
+}
+#artigo2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+    flex-direction: row-reverse;
+}
+#artigo3
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+#artigo4
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 14px;
+    flex-direction: row-reverse;
+}
+#titulo2
+{
+    display: none;
+}
+
+#imagem1 {
+    width: 100%;
+    
+}
+
+#imagem1 img{
+    width: 100%;
+}
+#texto1 h2
+{
+    margin-bottom: 24px;
+}
+#imagem2 {
+    width: 100%;
+    
+}
+
+#imagem2 img{
+    width: 100%;
+}
+#imagem3 {
+    width: 100%;
+    
+}
+
+#imagem3 img{
+    width: 100%;
+}
+#imagem4 {
+    width: 100%;
+    
+}
+
+#imagem4 img{
+    width: 100%;
+}
+#texto1
+{
+    padding: 0 100px;
+}
+#texto2
+{
+    padding: 0 100px;
+}
+#texto3
+{
+    padding: 0 100px;
+}
+
+#texto4
+{
+    padding: 0 100px;
+}
+
+#titulo
+{
+    display: none;
+}
+body
+{
+    background-image: url(bg.jpg);
+    
+}
+
+.no-main
+{
+    margin: 0;
+    padding: 0;
+}
+h4
+{
+    font-size: 14px;
+}
+
+
+}
