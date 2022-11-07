@@ -225,6 +225,7 @@ h4
 
 #imagem1 {
     width: 100%;
+    min-width: 45%;
     
 }
 
@@ -237,15 +238,17 @@ h4
 }
 #imagem2 {
     width: 100%;
-    
+    max-width: 48%;
 }
 
 #imagem2 img{
     width: 100%;
+    
 }
 #imagem3 {
     width: 100%;
-    
+    min-width: 45%;
+    padding-top: 10%;
 }
 
 #imagem3 img{
@@ -253,28 +256,52 @@ h4
 }
 #imagem4 {
     width: 100%;
+    min-width: 48%;
     
 }
 
 #imagem4 img{
     width: 100%;
 }
-#texto1
+
+#texto1 p
+{
+    text-align: left;
+    font-size: 1.3rem;
+    
+}
+#texto1 
 {
     padding: 0 100px;
+    
 }
-#texto2
+
+#texto2 p
+{
+    text-align: left;
+    font-size: 1.3rem;
+}
+#texto2 
 {
     padding: 0 100px;
 }
 #texto3
 {
     padding: 0 100px;
+    
+}
+#texto3 p
+{
+    font-size: 1.2rem;
 }
 
 #texto4
 {
     padding: 0 100px;
+}
+#texto4 p
+{
+    font-size: 1.3rem;
 }
 
 #titulo
